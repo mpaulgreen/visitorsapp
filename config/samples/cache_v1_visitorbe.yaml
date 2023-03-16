@@ -1,0 +1,12 @@
+apiVersion: cache.example.com/v1
+kind: Visitorbe
+metadata:
+  labels:
+    app.kubernetes.io/name: visitorbe
+    app.kubernetes.io/instance: visitorbe-sample
+    app.kubernetes.io/part-of: visitorapp
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: visitorapp
+  name: visitorbe-sample
+spec:
+  size: 1

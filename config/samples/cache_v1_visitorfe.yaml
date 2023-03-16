@@ -1,0 +1,12 @@
+apiVersion: cache.example.com/v1
+kind: Visitorfe
+metadata:
+  labels:
+    app.kubernetes.io/name: visitorfe
+    app.kubernetes.io/instance: visitorfe-sample
+    app.kubernetes.io/part-of: visitorapp
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: visitorapp
+  name: visitorfe-sample
+spec:
+  title: Ansible Deployed Visitors Site
