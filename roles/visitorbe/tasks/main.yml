@@ -1,5 +1,4 @@
 ---
----
 - name: deploy backend
   k8s:
     definition:

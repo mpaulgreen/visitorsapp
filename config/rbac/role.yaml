@@ -10,10 +10,13 @@ rules:
   - apiGroups:
       - ""
     resources:
-      - secrets
       - pods
-      - pods/exec
-      - pods/log
+      - services
+      - endpoints
+      - persistentvolumeclaims 
+      - events
+      - configmaps 
+      - secrets        
     verbs:
       - create
       - delete

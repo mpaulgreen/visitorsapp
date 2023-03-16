@@ -1,0 +1,38 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: ClusterServiceVersion
+metadata:
+  annotations:
+    alm-examples: '[]'
+    capabilities: Basic Install
+  name: visitorapp.v0.0.0
+  namespace: placeholder
+spec:
+  apiservicedefinitions: {}
+  customresourcedefinitions: {}
+  description: This is a test operator
+  displayName: visistorapp
+  icon:
+  - base64data: ""
+    mediatype: ""
+  install:
+    spec:
+      deployments: null
+    strategy: ""
+  installModes:
+  - supported: false
+    type: OwnNamespace
+  - supported: false
+    type: SingleNamespace
+  - supported: false
+    type: MultiNamespace
+  - supported: true
+    type: AllNamespaces
+  keywords:
+  - mpaul@redhat.com
+  links:
+  - name: Visitorapp
+    url: https://visitorapp.domain
+  maturity: alpha
+  provider:
+    name: Redhat
+  version: 0.0.0

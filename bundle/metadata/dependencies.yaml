@@ -1,0 +1,10 @@
+dependencies:
+# - type: olm.gvk
+#   value:
+#     group: cache.example.com
+#     kind: Mysql
+#     version: v1
+- type: olm.package
+  value:
+    packageName: mysql-operator
+    version: "=0.0.2"

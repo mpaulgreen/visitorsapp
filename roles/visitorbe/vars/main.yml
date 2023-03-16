@@ -1,1 +1,3 @@
 ---
+db_name: visitors
+db_service: mysql-service
